@@ -21,7 +21,7 @@
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
 				
-				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> | http://localhost/2020-veille/
+				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> | http://localhost/sd-wp/
 			<?php endif; ?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
 			
